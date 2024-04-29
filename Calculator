@@ -1,0 +1,28 @@
+def add(a,b):
+return a+b
+def sub(a-b):
+return a-b
+def mul(a,b):
+return a*b
+def div(a,b):
+return a/b
+def mod(a,b):
+return a%b
+print("WELCOME TO SIMPLE CALCULATOR ")
+print("select any one operation ")
+print("\n1.addition\n2.substraction \n3.multiplication\n4.division\n5.modulodivision")
+option=int(input())
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+if option=="1":
+ print(a "+" b "=",add(a,b))
+elif option =="2":
+print(a "-" b "=",sub(a,b))
+elif option =="3":
+print(a "*" b "=",mul(a,b))
+elif option=="4":
+print(a "/" b "=",div(a,b))
+elif option=="5":
+print(a "%" b "=",mod(a,b))
+else:
+print(" invalid input")
